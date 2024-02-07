@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{9f0c26af-4cff-4de3-bd9a-0e65bff4af29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components">
+      <UniqueIdentifier>{a454d0ca-c62a-46bf-b645-92f1715b655c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TileMap">
+      <UniqueIdentifier>{f6825623-4c92-41fd-826e-136114ebd079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{0b306289-d080-45f1-896d-635f90a9bfc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{56f70b83-b337-4b3c-9ad5-1e45716b1db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\TileEditor">
+      <UniqueIdentifier>{9bc99d64-72ef-4064-803a-4cb18ff6a0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items">
+      <UniqueIdentifier>{24b98f69-2eee-4373-b3be-432bc78e0621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entities">
+      <UniqueIdentifier>{f96ce287-f412-453f-92e3-903da4ad7dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items\Consumables">
+      <UniqueIdentifier>{9e1545bc-e426-4b79-9fa2-2c95e01e1e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entities\Enemies">
+      <UniqueIdentifier>{78dd7f01-bf8b-4598-a0db-2965004f80f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{358a43f2-d9eb-43da-bda2-d1bd57095fe9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveMentComponent.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="StatesAssetManager.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="HitBoxComponent.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="GfxSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorState.cpp">
+      <Filter>States\TileEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturePreview.cpp">
+      <Filter>States\TileEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributeComponent.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="Glock.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Items</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryComponent.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Consumables.cpp">
+      <Filter>Items\Consumables</Filter>
+    </ClCompile>
+    <ClCompile Include="Herb.cpp">
+      <Filter>Items\Consumables</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySpawner.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cyclops.cpp">
+      <Filter>entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="ghost.cpp">
+      <Filter>entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Magazine.cpp">
+      <Filter>Items\Consumables</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthComponent.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSystem.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="_3dAudio.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>Items\Consumables</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialKey.cpp">
+      <Filter>Items\Consumables</Filter>
+    </ClCompile>
+    <ClCompile Include="EndGameState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Giant.cpp">
+      <Filter>entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Crystal.cpp">
+      <Filter>Items\Consumables</Filter>
+    </ClCompile>
+    <ClCompile Include="MedKit.cpp">
+      <Filter>Items\Consumables</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradeKit.cpp">
+      <Filter>Items\Consumables</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="StatesAssetManager.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveMentComponent.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBoxComponent.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GfxSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorState.h">
+      <Filter>States\TileEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturePreview.h">
+      <Filter>States\TileEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributeComponent.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="Glock.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Items</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryComponent.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Consumables.h">
+      <Filter>Items\Consumables</Filter>
+    </ClInclude>
+    <ClInclude Include="Herb.h">
+      <Filter>Items\Consumables</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpawner.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cyclops.h">
+      <Filter>entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="ghost.h">
+      <Filter>entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Magazine.h">
+      <Filter>Items\Consumables</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthComponent.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSystem.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="_3dAudio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Items\Consumables</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialKey.h">
+      <Filter>Items\Consumables</Filter>
+    </ClInclude>
+    <ClInclude Include="EndGameState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Giant.h">
+      <Filter>entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Crystal.h">
+      <Filter>Items\Consumables</Filter>
+    </ClInclude>
+    <ClInclude Include="MedKit.h">
+      <Filter>Items\Consumables</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeKit.h">
+      <Filter>Items\Consumables</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Ahmed\Desktop\fragment_shader.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\Ahmed\Desktop\vertex_shader.vert">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
